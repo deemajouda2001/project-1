@@ -1,0 +1,105 @@
+
+.feedback-section {
+    padding: 60px 0;
+    background-color:  #f7f7f7;
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #333;
+}
+
+.section-subtitle {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.feedback-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: 0.3s ease-in-out;
+    max-width: 400px;
+    margin: auto;
+}
+
+.feedback-card:hover {
+    transform: translateY(-5px);
+}
+
+
+.quote-icon {
+    width: 50px;
+    height: 50px;
+    background-color: #ff4d4d;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.quote-icon.orange {
+    background-color: #ff914d;
+}
+
+.quote-icon.green {
+    background-color: #4CAF50;
+}
+
+
+.feedback-text {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.client-info img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.client-name {
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+}
+
+.client-role {
+    font-size: 14px;
+    color: #777;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #ff914d;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,149 @@
+
+
+@import url(/css/base.css);
+
+
+
+
+
+.navbar {
+    background: #f8f9fc;
+    padding: 15px 0;
+    transition: background 0.3s ease-in-out;
+}
+
+
+
+.navbar .navbar-brand{
+    position: relative;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #888 !important;
+    padding: 15px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+.navbar .nav-link {
+    color: #666;
+    font-weight: bold;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+    color: #ff914d;
+}
+
+.section {
+    height: 100vh;
+    padding: 80px 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+
+
+.main{
+    background-color: #F8F8F8 ;
+}
+.main .container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding: 0px;
+   animation: fadeInUp 1s ease-in-out forwards;
+}
+.main .col-1{
+    margin: 20px;
+    padding: 20px;
+}
+
+.col-1 .title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #888;
+    margin: 20px;
+    animation: fadeInLeft 1s ease-in-out forwards 0.3s;
+
+}
+
+
+.col-1 .title-2{
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+    margin: 20px;
+}
+
+.col-1 .butt{
+    margin: 20px;
+    border: 30px;
+    border-radius: 5vh;
+  
+}
+.col-1 .butt .btn-1{
+    margin: 20px;
+    color: #fff;
+    background-color: #ff975a;
+    box-shadow: royalblue;
+    border-radius: 50vh;
+
+}
+
+
+.col-1 .butt .btn-2{
+    margin: 20px;
+    color: #fff;
+    background-color: #ff975a;
+    box-shadow: royalblue;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#home { background: #f7f7f7; }
+#about { background: #f7f7f7; }
+#service{ background: #f7f7f7; }
+#portfolio { background: #fff; }
+#team { background: #f7f7f7; }
+#blog { background: #fff; }
+#contact { background: #f7f7f7; }
+

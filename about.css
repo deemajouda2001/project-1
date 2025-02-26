@@ -1,0 +1,34 @@
+
+
+h2 {
+    color: #333;
+    text-align: left;
+
+}
+
+h5 {
+    font-weight: 300px;
+    text-align: left;
+
+}
+
+p {
+    color: #777;
+    text-align: left;
+
+}
+
+.list-unstyled li {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #777;
+    text-align: left;
+
+}
+
+.list-unstyled i {
+    margin-right: 10px;
+    color: #ff914d;
+}
+
+

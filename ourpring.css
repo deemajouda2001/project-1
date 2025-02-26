@@ -1,0 +1,136 @@
+
+
+
+.pricing-section {
+    padding: 20px 0;
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #333;
+}
+
+.section-subtitle {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.pricing-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: 0.3s ease-in-out;
+    animation: fadeInLeft 1s ease-in-out forwards 0.3s;
+
+}
+
+.pricing-card:hover {
+    transform: translateY(-10px);
+}
+
+.plan-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.price {
+    font-size: 36px;
+    font-weight: 700;
+    color: #ff914d;
+    text-align: center;
+}
+
+ .price-orange{
+    color: #ff914d;
+}
+
+ .price-green{
+    color: #3e8e41;
+}
+
+ .price-red{
+    color: #ff4d4d;
+}
+
+.price span {
+    font-size: 18px;
+    font-weight: 500;
+    color: #777;
+}
+
+.features {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.features li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+
+
+
+.btn-buy {
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 50px;
+    color: #fff;
+    border-radius: 40px;
+    transition: 0.3s ease;
+    background-color: #ff914d;
+}
+
+.btn-orange {
+    background-color: #ff914d;
+}
+
+.btn-orange:hover {
+    background-color: #ff731d;
+}
+
+.btn-green {
+    background-color: #4CAF50;
+}
+
+.btn-green:hover {
+    background-color: #3e8e41;
+}
+
+ .btn-red {
+    background-color: #ff4d4d;
+}
+
+.btn-red:hover {
+    background-color: #ff4d4d;
+}
+
+
+
+
+
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(50px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInLeft {
+    from { opacity: 0; transform: translateX(-50px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes slideInRight {
+    from { opacity: 0; transform: translateX(50px); }
+    to { opacity: 1; transform: translateX(0); }
+
+}

@@ -1,0 +1,70 @@
+
+.team-section {
+    padding: 60px 0;
+}
+
+.section-title {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.section-subtitle {
+    font-size: 16px;
+    color: #777;
+}
+
+.team-card {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+
+    animation: fadeInLeft 1s ease-in-out forwards 0.3s;
+
+}
+
+.team-card:hover {
+    transform: translateY(-10px);
+}
+
+.team-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.team-card h4 {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.team-card p{
+    align-items: center;
+}
+
+.role {
+    font-size: 14px;
+    color: #ff914d;
+    text-align: center;
+}
+
+
+
+
+
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(50px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInLeft {
+    from { opacity: 0; transform: translateX(-50px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes slideInRight {
+    from { opacity: 0; transform: translateX(50px); }
+    to { opacity: 1; transform: translateX(0); }
+
+}

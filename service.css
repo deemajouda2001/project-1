@@ -1,0 +1,69 @@
+
+
+
+.services-section {
+    padding: 70px;
+    margin: 20px;
+    background-color: #f9f9ff;
+    background-color: #f9f9ff;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    position: relative;
+    overflow: hidden;
+   
+}
+
+.section-title {
+    font-size: 38px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.section-subtitle {
+    font-size: 16px;
+    color: #777;
+}
+
+
+.steps {
+    margin: 30px auto;
+    width: 50%;
+    position: relative;
+}
+
+.step {
+    background-color: #ff914d;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.line {
+    flex: 1;
+    height: 2px;
+    background-color: #ff914d;
+    margin: 0 10px;
+}
+
+
+.service-icon {
+    width: 140px;
+    height: auto;
+    margin-bottom: 15px;
+    margin: 30px;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 14px;
+    color: #666;
+}
+
+
